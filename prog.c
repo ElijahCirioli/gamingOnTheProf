@@ -1,4 +1,5 @@
 /* Compile with gcc -Wall -ansi -o program prog.c */
+/* I was too lazy to free memory but that's not the point */
 
 #include <stdio.h>
 #include <assert.h>
