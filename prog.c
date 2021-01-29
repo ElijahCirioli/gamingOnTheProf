@@ -33,6 +33,7 @@ void pushStackPtr(struct ListStack* stk, TYPE val) {
     stk->sentinel->next = new;
 }
 
+/* I would do it the other way but my prof was adamant this wouldn't work */
 void pushStackVal(struct ListStack stk, TYPE val) {
     struct Link* new = (struct Link*)malloc(sizeof(struct Link));
     assert(new != NULL);
