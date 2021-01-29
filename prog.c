@@ -62,7 +62,7 @@ int main() {
     pushStackVal(stk, 2);
     pushStackVal(stk, 1);
 
-    printStack(&stk);
+    printStack(&stk); /* Expected: 1, 2, 3, 4, */
 
     return 0;
 }
